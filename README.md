@@ -7,7 +7,7 @@ This is the report for the One Day Workshop on "On Chip PLL using OSU 180nm Proc
 - [Pre Layout Schematic and Simulations](#Pre-Layout-Schematic-and-Simulations)
 - [Layout Design Using Magic](#Layout-Design-Using-Magic)
 - [Post Layout Simulations](#Post-Layout-Simulations)
-- [Author](#Author)
+- [Report By](#Report-By)
 - [Acknowledgements](#Acknowledgements)
 
 
@@ -60,7 +60,7 @@ The Netlist were obtained from the tool and were modified to make it run in Ngsp
  ![](assets/post_layout_plots/pll.png)
 
 
-# Author
+# Report By
 - R.V.Rohinth Ram
 
 # Acknowledgements
@@ -69,6 +69,6 @@ The Netlist were obtained from the tool and were modified to make it run in Ngsp
 
 ---
  * Thanks to Paras Gidd, Workshop Instructor
- * Reference https://github.com/parasgidd/avsdpll_3v3
+ * Reference: https://github.com/parasgidd/avsdpll_3v3
 ---
 
