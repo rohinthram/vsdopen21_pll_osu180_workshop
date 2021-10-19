@@ -1,0 +1,317 @@
+* SPICE3 file created from pll.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 vdd a_110_121# a_74_227# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1001 vdd a_48_n122# a_68_n124# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 gnd fout a_381_n108# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 a_110_121# a_66_299# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 a_66_198# a_43_86# gnd gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 a_138_18# a_66_123# a_127_18# gnd nfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 a_102_19# a_78_19# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 a_221_n122# a_218_n108# a_211_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 dn a_48_36# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 a_68_n124# a_55_n108# a_36_n124# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 vdd a_66_299# a_48_392# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 a_394_n124# fout a_362_n124# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 a_58_n122# a_55_n79# a_48_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 a_48_36# a_102_19# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 up a_48_392# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 a_66_299# a_43_336# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 a_289_251# a_280_251# vdd w_251_224# pfet w=39 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 vdd a_317_136# a_355_80# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 a_280_251# vdd a_264_251# w_251_224# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 a_355_80# a_316_78# a_316_57# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 vdd a_362_n124# a_218_n79# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 a_74_227# a_110_121# a_102_229# gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 a_43_86# a_18_19# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 a_48_392# a_102_336# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 a_231_n124# a_218_n79# a_199_n124# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1025 a_172_n122# a_218_n79# a_211_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 a_48_36# a_110_121# a_138_18# gnd nfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 gnd cp a_318_101# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 gnd a_68_n124# a_58_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 dn a_48_36# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 a_102_198# a_66_123# gnd gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 a_318_122# a_316_19# a_316_99# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 a_66_229# a_43_336# gnd gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1033 vdd a_66_123# a_48_36# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 a_18_336# fin vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1035 gnd cp a_318_80# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 a_74_227# a_66_299# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1037 a_318_80# a_316_78# a_316_57# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 vdd a_74_121# a_66_123# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 a_231_n124# a_218_n108# a_199_n124# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 vdd a_316_19# fout vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 a_78_336# a_43_336# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 a_264_251# up vdd w_251_224# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 gnd fvco_8 a_9_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 vdd a_48_36# a_43_86# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 a_280_214# gnd a_264_214# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 gnd a_218_n79# a_218_n108# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 a_9_n122# a_55_n108# a_48_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 vdd a_48_392# a_43_336# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 a_102_336# a_78_336# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 vdd a_218_n79# a_218_n108# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1051 gnd a_374_n122# a_394_n124# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 a_384_n122# fout a_374_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 a_335_n122# fout a_374_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 gnd a_55_n79# a_55_n108# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 vdd a_317_136# a_355_59# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 vdd a_317_136# a_355_122# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1057 a_102_229# a_66_299# gnd gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 a_280_214# vdd a_264_214# w_251_224# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1059 vdd a_36_n124# fvco_8 w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 a_355_59# a_316_57# a_316_36# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 a_48_36# a_110_121# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 vdd a_317_136# a_317_136# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1063 a_36_n124# a_55_n79# a_9_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 gnd a_211_n122# a_231_n124# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 vdd a_374_n122# a_394_n124# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 vdd a_55_n79# a_55_n108# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1067 a_18_19# fvco_8 vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1068 vdd a_110_121# a_74_121# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1069 gnd a_316_19# fout gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 vdd a_218_n79# a_335_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 vdd a_211_n122# a_231_n124# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 gnd a_394_n124# a_384_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1073 a_68_n124# a_55_n79# a_36_n124# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 a_394_n124# a_381_n108# a_362_n124# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1075 a_78_19# a_43_86# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 vdd a_231_n124# a_221_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 up a_48_392# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 a_264_214# dn gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1079 a_66_123# a_43_86# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 a_384_n122# a_381_n108# a_374_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1081 vdd a_55_n79# a_172_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 gnd cp a_318_59# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 a_362_n124# fout a_335_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1084 a_318_59# a_316_57# a_316_36# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1085 a_290_206# a_280_214# a_290_206# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 vdd fout a_381_n108# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 gnd a_218_n79# a_335_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1088 a_18_19# fvco_8 gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 a_264_214# dn a_257_230# w_251_224# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 a_43_336# a_48_392# a_43_410# gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1091 a_48_392# a_110_121# a_138_406# gnd nfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1092 a_199_n124# a_218_n79# a_172_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1093 a_43_336# a_18_336# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 a_43_17# a_18_19# gnd gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 gnd a_55_n79# a_172_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 gnd a_36_n124# fvco_8 gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1097 a_78_19# a_43_86# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 vdd a_317_136# a_355_38# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1099 vdd a_317_136# a_355_101# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1100 a_355_38# a_316_36# a_316_19# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1101 a_138_406# a_66_299# a_127_406# gnd nfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 a_362_n124# a_381_n108# a_335_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1103 a_355_122# a_316_19# a_316_99# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1104 a_74_121# a_66_123# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1105 a_221_n122# a_218_n79# a_211_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 vdd a_394_n124# a_384_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1107 a_199_n124# a_218_n108# a_172_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 a_78_336# a_43_336# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1109 vdd fvco_8 a_9_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 a_127_406# a_102_336# gnd gnd nfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1111 gnd a_48_n122# a_68_n124# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1112 gnd a_231_n124# a_221_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1113 a_102_336# a_78_336# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 a_43_86# a_48_36# a_43_17# gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1115 a_58_n122# a_55_n108# a_48_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 a_66_123# a_74_121# a_66_198# gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1117 vdd a_43_86# a_110_121# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 a_280_251# gnd a_264_251# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1119 a_318_38# a_316_36# a_316_19# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 gnd cp a_318_38# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1121 a_135_228# a_66_299# gnd gnd nfet w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 a_18_336# fin gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1123 a_43_410# a_18_336# gnd gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1124 a_355_101# a_316_99# a_316_78# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1125 a_290_206# dn gnd gnd nfet w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 vdd a_74_227# a_66_299# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1127 cp gnd a_289_251# w_251_224# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1128 a_335_n122# a_381_n108# a_374_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1129 cp vdd a_290_206# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1130 gnd a_362_n124# a_218_n79# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1131 a_110_121# a_43_336# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 a_289_251# up a_289_251# w_251_224# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1133 a_141_228# a_66_123# a_135_228# gnd nfet w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 vdd vdd gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1135 a_9_n122# a_55_n79# a_48_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 a_127_18# a_102_19# gnd gnd nfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1137 a_147_228# a_43_336# a_141_228# gnd nfet w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 gnd cp a_318_122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1139 vdd a_199_n124# a_55_n79# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 a_102_19# a_78_19# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1141 gnd cp a_317_136# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1142 a_172_n122# a_218_n108# a_211_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 a_110_121# a_43_86# a_147_228# gnd nfet w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 a_74_121# a_110_121# a_102_198# gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1145 gnd a_199_n124# a_55_n79# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 vdd a_66_123# a_110_121# vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1147 a_66_299# a_74_227# a_66_229# gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 gnd gnd vdd w_251_224# pfet w=7 l=2
++  ad=0 pd=0 as=0 ps=0
+M1149 vdd a_68_n124# a_58_n122# w_3_n133# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 a_318_101# a_316_99# a_316_78# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1151 a_264_251# up gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 a_48_392# a_110_121# vdd vdd pfet w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 a_36_n124# a_55_n108# a_9_n122# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 vdd gnd 23.62fF
+C1 fout gnd 2.31fF
+C2 a_110_121# gnd 2.65fF
+C3 w_3_n133# gnd 9.27fF
+C4 w_251_224# gnd 3.65fF

@@ -51,7 +51,13 @@ The Netlist were obtained from the tool and were modified to make it run in Ngsp
 - Phase Locked Loop
 ![](assets/pre_layout_plots/pll.png)
 
+# Layout Design Using Magic
+ - PLL
+ ![](assets/layout/pll.png)
+ 
 
+# Post Layout Simulations
+ ![](assets/post_layout_plots/pll.png)
 
 
 # Author
