@@ -1,0 +1,24 @@
+.include osu018.lib
+
+M1  vdd in1 out401 vdd pfet l=180n w=360n		
+M2  vdd in2 out401 vdd pfet l=180n w=360n		
+M7  vdd in3 out401 vdd pfet l=180n w=360n		
+M8  vdd in4 out401 vdd pfet l=180n w=360n		
+M3  out401 in1 Net-_M3-Pad3_ gnd l=180n w=720n		
+M4  Net-_M3-Pad3_ in2 Net-_M4-Pad3_ gnd nfet l=180n w=720n		
+M5  Net-_M4-Pad3_ in3 Net-_M5-Pad3_ gnd nfet l=180n w=720n		
+M6  Net-_M5-Pad3_ in4 gnd gnd nfet l=180n w=720n		
+
+v1 vdd gnd 1.8
+v2 in1 gnd PULSE(0 1.8 0 .1u .1u 1u 2u) 
+v3 in2 gnd PULSE(0 1.8 .5u .1u .1u 1u 1.9u)
+v4 in3 gnd PULSE(0 1.8 .5u .1u .1u 1u 2.1u)
+v5 in4 gnd PULSE(0 1.8 .5u .1u .1u .5u 2.1u)
+
+.tran 1us 10u
+.control
+run
+plot v(in1)+8 v(in2)+6 v(in3)+4 V(in4)+2 v(out401)
+.endc		
+
+.end

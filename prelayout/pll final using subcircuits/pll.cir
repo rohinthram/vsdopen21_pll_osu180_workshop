@@ -1,0 +1,30 @@
+*
+.include sub_ckt_pll_blocks.lib
+
+XX1 f_in f_VCO/8 up down vdd pfd_501
+XX2 up down Vin_vco vdd charge_pump
+XX3 Vin_vco f_out vdd vco_19_16
+XX5 f_out N003 vdd freq_div_2
+XX6 N003 N002 vdd freq_div_2
+XX7 N002 f_VCO/8 vdd freq_div_2
+
+
+****LPF**
+C1 Vin_vco 0 200p
+C2 N001 0 500p
+R1 Vin_vco N001 500
+
+V1 f_in 0 PULSE(0 1.8 10p 60p 60p 100n 200n)
+V2 vdd 0 1.8
+
+.tran .1ns 6u
+.ic V(vin_vco) = 0
+.control
+run
+plot V(f_in)+8 V(up)+6 V(down)+4 V(Vin_vco)+2 V(f_out)
+
+*plot V(N002)
+*plot V(Vin_vco)
+*plot V(f_out)
+.endc
+.end

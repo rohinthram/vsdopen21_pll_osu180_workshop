@@ -1,0 +1,26 @@
+* Voltage Controlled Oscillator
+
+.include osu018.lib
+.include sub_ckts.lib
+*______________________________________________
+M7 Vp Vn 0 0 nfet l=180n w=360n
+M8 Vp Vp VDD VDD pfet l=180n w=1800n
+R1 Vn Vinvco 1
+XU22 osc_fb Osc inv_20_10
+XX3 n1 osc_fb Vp Vn cs_inv
+XX16 N005 n1 Vp Vn cs_inv
+XX17 N004 N005 Vp Vn cs_inv
+XX18 N003 N004 Vp Vn cs_inv
+XX19 N002 N003 Vp Vn cs_inv
+XX20 N001 N002 Vp Vn cs_inv
+XX21 osc_fb N001 Vp Vn cs_inv
+
+V2 Vinvco 0 .5
+V3 VDD 0 1.8
+
+.control
+tran .1ns 1u
+plot V(Vinvco)+2 V(osc_fb)
+.endc
+
+.end

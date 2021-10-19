@@ -1,0 +1,67 @@
+.include osu018.lib
+
+.subckt inv101 in out vdd gnd
+M1  out in gnd gnd nfet l=180n w=180n		
+M2  vdd in out vdd pfet l=180n w=360n
+.ends inv101
+
+******************************
+
+.subckt nand201 in1 in2 out201 vdd gnd
+M3  out201 in1 Net-_M3-Pad3_ gnd nfet l=180n w=720n		
+M4  Net-_M3-Pad3_ in2 gnd gnd nfet l=180n w=720n
+M2  vdd in2 out201 vdd pfet l=180n w=360n
+M1  vdd in1 out201 vdd pfet l=180n w=360n
+.ends nand201
+
+***********************************
+
+.subckt nand301 in1 in2 in3 out301 vdd gnd
+M4  out301 in1 Net-_M4-Pad3_ gnd nfet l=180n w=720n		
+M5  Net-_M4-Pad3_ in2 Net-_M5-Pad3_ gnd nfet l=180n w=720n		
+M6  Net-_M5-Pad3_ in3 gnd gnd nfet l=180n w=720n		
+M2  vdd in2 out301 vdd pfet l=180n w=360n		
+M3  vdd in3 out301 vdd pfet l=180n w=360n		
+M1  vdd in1 out301 vdd pfet l=180n w=360n
+.ends nand301
+
+************************************
+
+.subckt nand401 in1 in2 in3 in4 out401 vdd gnd
+M1  vdd in1 out401 vdd pfet l=180n w=360n		
+M2  vdd in2 out401 vdd pfet l=180n w=360n		
+M7  vdd in3 out401 vdd pfet l=180n w=360n		
+M8  vdd in4 out401 vdd pfet l=180n w=360n		
+M3  out401 in1 Net-_M3-Pad3_ gnd nfet l=180n w=720n		
+M4  Net-_M3-Pad3_ in2 Net-_M4-Pad3_ gnd nfet l=180n w=720n		
+M5  Net-_M4-Pad3_ in3 Net-_M5-Pad3_ gnd nfet l=180n w=720n		
+M6  Net-_M5-Pad3_ in4 gnd gnd nfet l=180n w=720n	
+.ends nand401
+
+
+*********************************************
+.subckt cs_inv In Out Vp Vn
+M1 N003 Vn 0 0 nfet l=180n w=360n
+M4 N002 Vp N001 VDD pfet l=180n w=720n
+M3 Out In N002 VDD pfet l=180n w=720n
+M2 Out In N003 0 nfet l=180n w=360n
+*C1 Out 0 1pf
+V1 N001 0 1.8
+.ends cs_inv
+
+
+********************************************
+
+.subckt inv_20_10 In Out
+M1 Out In 0 0 nfet l=180n w=360n
+M2 Out In N001 N001 pfet l=180n w=720n
+V1 N001 0 1.8
+.ends inv_20_10
+
+*********************************************
+
+
+
+
+
+
